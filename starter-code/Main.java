@@ -5,7 +5,7 @@ import java.util.ArrayList;
  */
 public class Main {
 
-    public static void main(String[] args) {
+    public  void main(String[] args) {
         //TODO: Create an array of Monsters, containing at least 2 different types (ie dragon and zombie)
         List<Monster> monsterList = new ArrayList<>();
         monsterList.add(new Zombie(30,50));
@@ -15,5 +15,6 @@ public class Main {
         for(Monster m : monsterList){
             m.aboutMe();
         }
+
     }
 }

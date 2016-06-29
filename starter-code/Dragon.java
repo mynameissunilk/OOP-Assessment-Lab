@@ -15,5 +15,5 @@ public class Dragon extends Monster{
 
         System.out.println("I am a Dragon with " + this.getHealth() + " health and " + this.getDamage() + " damage!");
     }
-
+    
 }
